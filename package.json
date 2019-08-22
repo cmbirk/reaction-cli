@@ -4,6 +4,7 @@
   "description": "cli tool for developing on Reaction",
   "main": "index.js",
   "scripts": {
+    "build": "",
     "lint": "eslint . --fix --ext .js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +13,13 @@
   "author": "Chris Birk <cmbirk@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "conf": "^5.0.0",
+    "inquirer": "^6.5.1",
     "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
     "simple-git": "^1.124.0"
   },
   "devDependencies": {
@@ -20,15 +27,9 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "babel-eslint": "^10.0.2",
-    "chalk": "^2.4.2",
-    "clear": "^0.1.0",
-    "clui": "^0.3.6",
-    "conf": "^5.0.0",
     "eslint": "^6.2.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "inquirer": "^6.5.1",
-    "minimist": "^1.2.0"
+    "eslint-plugin-import": "^2.18.2"
   }
 }
