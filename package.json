@@ -1,8 +1,25 @@
 {
   "name": "reaction-cli",
   "version": "0.0.0",
+  "description": "cli tool for developing on Reaction",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix --ext .js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": "git@github.com:cmbirk/reaction-cli.git",
+  "keywords": [],
   "author": "Chris Birk <cmbirk@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
 }
