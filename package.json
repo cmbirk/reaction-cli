@@ -4,9 +4,12 @@
   "description": "cli tool for developing on Reaction",
   "main": "index.js",
   "scripts": {
-    "build": "",
+    "build": "babel src --out-file index.js",
     "lint": "eslint . --fix --ext .js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rc": "./index.js"
   },
   "repository": "git@github.com:cmbirk/reaction-cli.git",
   "keywords": [],
